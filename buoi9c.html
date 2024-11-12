@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css  ">
+    <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+    body{
+        background-image: linear-gradient(red, orange);
+         min-height: 100vh;
+      }
+      .box h1{
+         margin-bottom: 10px;
+         font-optical-sizing: auto;
+         font-weight: 200;
+         font-style: normal;
+         font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+      
+     .box{
+        width: 400px;
+        height: 500px;
+        background: white;
+        margin: 100px auto;
+        text-align: center;
+        padding: 50px 20px;
+        border-radius: 5px;
+     }
+     input[ type='email'], input[type='password']{
+      width: 100%;
+      padding: 6px 10px;
+      margin-bottom: 20px;
+     }
+     .box a{
+      margin-bottom: 10px;
+      display: block;
+      color: #000;
+      opacity: 0.7;
+     }
+     input[type='submit']{
+      width: 60%;
+      padding: 10px;
+      text-transform: uppercase;
+      color: #fff;
+      background: rgb(255, 64, 47);
+      border: none;
+      font-weight: 700;
+      border-radius: 5px;
+     }
+     .icon a{
+      display: inline-block;
+      margin: 10px;
+      width: 40px;
+      height: 40px;
+      background-color: rgb(0, 132, 255);
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      color: #fff;
+      font-size: 25px ;
+      transition: 1s;
+     }
+     h1:hover{
+      color: palevioletred;
+      background-color: rgb(255, 255, 255);
+
+     }
+     .icon a:hover{
+      background: aquamarine;
+      color: #000;
+     }
+     .test a{
+      width: 70px;
+      height: 70px;
+      background-color: #df5959;
+      display: inline-block;
+      text-align: center;
+      line-height: 70px;
+      border-radius: 50%;
+      color: rgb(255, 255, 255);
+      margin: 10px;
+      transition: 0.5s;
+      box-shadow: box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+     }
+    </style>
+</head>
+<body>
+   <div class="box">
+    <h1> Sign in</h1>
+    <form>
+        <input type="email" placeholder="Enter your email"><br>
+        <input type="password" placeholder="Enter your password"><br>
+        <a href="#">Forgot your password</a><br>
+        <input type="submit" value="Sign in"><br>
+    </form>
+       <div class="icon">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+   </div>
+
+   <div class="test">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+   </div>
+</body>
+</html>
